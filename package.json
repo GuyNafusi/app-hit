@@ -1,18 +1,15 @@
 {
-  "name": "apple-hit",
-  "version": "0.1.0",
+  "name": "itunes-qr-preview",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3000"
   },
   "dependencies": {
-    "next": "16.0.5",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
-  },
-  "devDependencies": {
-    "babel-plugin-react-compiler": "1.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
