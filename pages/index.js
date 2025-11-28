@@ -66,7 +66,7 @@ export default function Home() {
       if (json.resultCount && json.results.length) {
         const item = json.results[0];
         setTrack(normalizeItunesItem(item));
-        setStatus("Found: " + item.trackName + " — tap Play");
+        setStatus("Found a song — tap Play");
       } else {
         setStatus("No results for id: " + id);
       }
