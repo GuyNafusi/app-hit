@@ -140,7 +140,7 @@ export default function Home() {
       </Head>
 
       <main style={{ fontFamily: "Arial, sans-serif", maxWidth: 720, margin: "18px auto", padding: 12 }}>
-        <h1 style={{ textAlign: "center" }}>iTunes QR Preview (Scan Only)</h1>
+        <h1 style={{ textAlign: "center" }}>Song Guesser!</h1>
         <p style={{ color: "#444", textAlign: "center" }}>{status}</p>
 
         <section style={{ marginTop: 8 }}>
