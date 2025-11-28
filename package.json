@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "babel-plugin-react-compiler": "^1.0.0",
+    "html5-qrcode": "^2.3.8",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
