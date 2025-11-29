@@ -51,7 +51,7 @@ export default function Home() {
       const idPath = text.match(/\/id(\d+)/);
       if (idPath) return idPath[1];
       const numeric = text.match(/\d+$/);
-      if (numeric) return numeric[1];
+      if (numeric) return numeric[0];
 
     } catch (e) {}
     return null;
