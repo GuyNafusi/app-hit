@@ -87,7 +87,7 @@ export default function Home() {
       if (json.resultCount && json.results.length) {
         const item = json.results[0];
         setTrack(normalizeItunesItem(item));
-        setStatus("Found by text: " + item.trackName);
+        setStatus("Found Song! ");
       } else {
         setStatus("No search results for scanned text");
       }
